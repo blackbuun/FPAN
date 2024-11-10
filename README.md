@@ -19,6 +19,8 @@ Affect Net|	58.05|	58.04 |58.56|	58.30
 During the training phase, we preprocessed facial expression images by normalizing them to 224×224 pixels, followed by data augmentation. We used the ResNet-34 network for feature extraction, and cross-entropy loss was employed to quantify the difference between the model’s predictions and true labels. The Stochastic Gradient Descent (SGD) optimizer with a momentum of 0.9 was used to update model weights and biases. The input batch size was set to 32, the initial learning rate to 0.001, and a step-wise learning rate scheduling strategy was adopted with a step size of 20 and gamma of 0.3. All experiments were conducted under identical conditions, with code implemented in PyTorch on the Pycharm platform, and accelerated with an NVIDIA GeForce RTX 3090 GPU.
 # Files used in this task  
 ...    
+https://zenodo.org/badge/DOI/10.5281/zenodo.14062381.svg
+
 '<FPAN      
      * --checkpoint  
      * --dataset  
