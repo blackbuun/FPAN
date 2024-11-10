@@ -23,4 +23,4 @@ During the training phase, we preprocessed facial expression images by normalizi
      * --my_model  
      * --train>'  
 
-# Get the experimental results by running the training file
+# Get the experimental results by running the train file
